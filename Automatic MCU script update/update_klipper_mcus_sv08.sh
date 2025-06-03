@@ -7,11 +7,11 @@
 # Generic command to find serials: ls /dev/serial/by-id/
 
 # I'm a string, so I look like: HOSTSERIAL='XXXXXXXX'
-HOSTSERIAL='XXXXXXXX'
+HOSTSERIAL='38FFD905334E4B3139660551-if00'
 
 # I'm an array so I look like: TOOLHEADSERIAL=('YYYYYYY')
 # For multiple serials/toolheads use (mind the space in between items!): TOOLHEADSERIALS=('YYYYYYY1' 'YYYYYYY2' 'YYYYYYY3')
-TOOLHEADSERIALS=('YYYYYYY') # For multiple serials use: TOOLHEADSERIALS=('SERIAL_1' 'SERIAL_2' 'SERIAL_3')
+TOOLHEADSERIALS=('55FF6B064849825306370667-if00') # For multiple serials use: TOOLHEADSERIALS=('SERIAL_1' 'SERIAL_2' 'SERIAL_3')
 
 # I'm a string, so I look like: EDDYSERIAL='XXXXXXXX'
 # This assumes your Eddy has the Katapult bootloader!
